@@ -10,10 +10,12 @@
         <!-- Place new controls here -->
         <Label Text="Welcome to Xamarin.Forms!" 
            HorizontalOptions="Center"
-           VerticalOptions="Center" />
+           VerticalOptions="Center" 
+               x:Name="lblGreet"/>
         <Entry Placeholder="Enter your name"
                x:Name="nameEntry"/>
         <Button Text="Say Hello" 
+                
                Clicked="BtnClick_Clicked"
                 x:Name="btnClick"/>
     </StackLayout>

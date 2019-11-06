@@ -22,6 +22,8 @@ namespace HelloWorld
         {
             string userName = nameEntry.Text;
             string greeting = $"Hello {userName}";
+            lblGreet.Text = greeting;
+            
         }
     }
 }
